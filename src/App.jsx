@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import TajImage from './components/Taj';
 import Palace from './components/palace';
 import QutubMinar from './components/Qutub.jsx';
+import Arrow from './components/Arrow.jsx';
 
 import Textbox1 from './components/Textbox1';
 import Textbox2 from './components/Textbox2';
@@ -28,6 +29,7 @@ function App() {
       {/* Qutub Minar */}
       <QutubMinar/>
       <Textbox4/>
+      <Arrow/>
     </div>
   );
 }
