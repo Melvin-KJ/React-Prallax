@@ -5,7 +5,7 @@ const Textbox2 = () => {
     <div className="Textbox">
       <h3>Mysore Palace</h3>
       <p>
-        The <b>Taj Mahal</b>in Karnataka, India, is a stunning blend of Hindu,
+        The <b>Mysore Palace</b> in Karnataka, India, is a stunning blend of Hindu,
         Gothic, Rajput, and Islamic styles, reflecting the grandeur of the
         Wadiyar dynasty. Known for its ornate carvings, stained glass ceilings,
         and glowing evening illumination, the palace offers visitors a dazzling
