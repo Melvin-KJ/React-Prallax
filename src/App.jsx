@@ -13,8 +13,8 @@ import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import './styles/styles.css'
 
-import Navbar from './components/Navbar';
-import TajImage from './components/Taj';
+import Navbar from './components/Navbar.jsx';
+import TajImage from './components/Taj.jsx';
 import Palace from './components/Palace.jsx';
 import QutubMinar from './components/Qutub.jsx';
 import Arrow from './components/Arrow.jsx';
