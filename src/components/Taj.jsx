@@ -6,7 +6,7 @@ const TajImage = () => (
     className='image'
     bgImage={TajMahal}
     bgImageAlt="Taj Mahal Image"
-    strength={800}
+    strength={500}
   >
    <div className='content'>
     <span className='Img-text'>

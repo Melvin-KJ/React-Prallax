@@ -6,10 +6,10 @@ const Palace = () => (
     className="image"
     bgImage={MysorePalace}
     bgImageAlt="Mysore Palace Image"
-    strength={800}
+    strength={500}
   >
     <div className="content">
-      <span className="Img-text">Taj Mahal</span>
+      <span className="Img-text">Mysore Palace</span>
     </div>
   </Parallax>
 );
