@@ -15,7 +15,7 @@ import './styles/styles.css'
 
 import Navbar from './components/Navbar';
 import TajImage from './components/Taj';
-import Palace from './components/palace';
+import Palace from './components/Palace.jsx';
 import QutubMinar from './components/Qutub.jsx';
 import Arrow from './components/Arrow.jsx';
 
