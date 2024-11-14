@@ -1,5 +1,18 @@
 import './App.css';
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import {Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+import './styles/styles.css'
+
 import Navbar from './components/Navbar';
 import TajImage from './components/Taj';
 import Palace from './components/palace';
@@ -18,18 +31,38 @@ function App() {
       {/* Navbar component */}
       <Navbar />
       {/* Taj Mahal Component */}
-      <TajImage/>
-      <Textbox1/>
+      <TajImage />
+      <Textbox1 />
       {/* Mysroe Palace Component */}
-      <Palace/>
-      <Textbox2/>
+      <Palace />
+      <Textbox2 />
       {/* Golden Temple */}
-      <GoldenTemple/>
-      <Textbox3/>
+      <GoldenTemple />
+      <Textbox3 />
       {/* Qutub Minar */}
-      <QutubMinar/>
-      <Textbox4/>
-      <Arrow/>
+      <QutubMinar />
+      <Textbox4 />
+      {/* Arrow scroll to top component */}
+      <Arrow />
+      {/* Slider from swiper-react-parallax components */}
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="swiper"
+      >
+        <SwiperSlide className='slide1'>India Gate</SwiperSlide>
+        <SwiperSlide className='slide2'>Red Fort</SwiperSlide>
+        <SwiperSlide className='slide3'>Hampi</SwiperSlide>
+      </Swiper>
     </div>
   );
 }

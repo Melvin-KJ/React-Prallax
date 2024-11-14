@@ -1,0 +1,48 @@
+/* custom css styles from swiper-react-component which is pre-built */
+
+
+.swiper {
+  width: 100%;
+  height: 800px;
+  margin: 200px 0;
+}
+
+/* slides with background Images */
+.slide1 {
+  background-image: url('https://greenwoodhigh.edu.in/wp-content/uploads/2024/01/image-97.png.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.slide2 {
+  background-image: url('https://greenwoodhigh.edu.in/wp-content/uploads/2024/01/image-98-1024x768.png.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+   font-weight: bold;
+  font-style: italic;
+}
+
+.slide3 {
+  background-image: url('https://greenwoodhigh.edu.in/wp-content/uploads/2024/01/image-89.png.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+   font-weight: bold;
+  font-style: italic;
+}
